@@ -9,7 +9,7 @@ const log = debug('democracyos:root')
 
 // Basic server configuration
 const opts = {
-  port: process.env.PORT || config.publicPort,
+  port: process.env.PORT || 80, config.publicPort,
   protocol: config.protocol,
   https: config.https
 }
